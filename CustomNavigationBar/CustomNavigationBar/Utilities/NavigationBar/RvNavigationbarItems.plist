@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BarColor</key>
+	<string>#025D82</string>
+	<key>BarImage</key>
+	<string></string>
+	<key>LoginViewController</key>
+	<dict>
+		<key>showTopBar</key>
+		<false/>
+	</dict>
+	<key>DashboardViewController</key>
+	<dict>
+		<key>showTopBar</key>
+		<true/>
+		<key>BarTitle</key>
+		<string>DASHBOARD</string>
+		<key>leftCustomBarButtons</key>
+		<array>
+			<string>back_icon.UIImage</string>
+		</array>
+		<key>rightCustomBarButtons</key>
+		<array>
+			<string>icon_logout.UIImage</string>
+		</array>
+	</dict>
+</dict>
+</plist>
